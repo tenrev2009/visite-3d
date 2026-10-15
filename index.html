@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Visite 3D</title>
+<style>
+  :root {
+    --panel: rgba(18, 22, 30, 0.82);
+    --text: #f1f4f8;
+    --dim: #9aa6b5;
+    --accent: #2fb5b0;
+    --sun: #f5b84d;
+    --border: rgba(255, 255, 255, 0.12);
+  }
+  html, body { margin: 0; height: 100%; overflow: hidden; background: #cfd8e3; font-family: "Segoe UI", system-ui, sans-serif; color: var(--text); }
+  canvas { display: block; touch-action: none; cursor: grab; }
+  canvas.dragging { cursor: grabbing; }
+
+  #panel {
+    position: absolute; left: 12px; top: 12px; width: 200px; padding: 12px;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    backdrop-filter: blur(6px); user-select: none;
+  }
+  #panel h2 { margin: 0 0 8px; font-size: 17px; }
+  #panel button {
+    display: block; width: 100%; margin: 0 0 6px; padding: 6px 8px; text-align: left;
+    background: rgba(255, 255, 255, 0.06); color: var(--text); border: 1px solid var(--border);
+    border-radius: 6px; font-size: 13px; cursor: pointer;
+  }
+  #panel button:hover { background: rgba(255, 255, 255, 0.14); }
+  #panel button.on { background: var(--accent); border-color: var(--accent); color: #062322; font-weight: 600; }
+  #panel .help { margin-top: 10px; font-size: 11px; line-height: 1.5; color: var(--dim); }
+  #panel.hidden { display: none; }
+
+  #loading {
+    position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    background: #1b2028; color: var(--text); font-size: 15px; gap: 12px; z-index: 5;
+  }
+  #loading .track { width: 260px; height: 6px; background: rgba(255, 255, 255, 0.15); border-radius: 3px; overflow: hidden; }
+  #loading .bar { height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+
+  #pad { position: absolute; right: 16px; bottom: 16px; display: none; grid-template-columns: repeat(3, 56px); gap: 6px; user-select: none; }
+  #pad button { width: 56px; height: 56px; border-radius: 50%; border: 1px solid var(--border); background: var(--panel); color: var(--text); font-size: 22px; }
+  #pad .gap { visibility: hidden; }
+  body.touch #pad { display: grid; }
+
+  #panel .sun { margin-top: 10px; font-size: 13px; color: var(--sun); white-space: pre; }
+  #panel .sun input { width: 100%; accent-color: var(--sun); }
+
+  .bubble {
+    position: absolute; left: 0; top: 0; min-width: 180px; max-width: 360px; padding: 10px 12px;
+    background: var(--panel); border: 1px solid var(--border); border-radius: 10px;
+    backdrop-filter: blur(6px); pointer-events: auto; z-index: 3;
+  }
+  .bubble.hidden { display: none; }
+  .bubble-title { font-size: 16px; font-weight: 700; }
+  .bubble-sub { font-size: 12px; color: var(--dim); margin: 2px 0 8px; }
+  .bubble-body { display: flex; flex-wrap: wrap; gap: 8px; }
+  .bubble-body button { cursor: pointer; color: var(--text); font: inherit; }
+  .bubble-body .card {
+    width: 104px; padding: 4px; background: rgba(255,255,255,0.06); border: 2px solid var(--border);
+    border-radius: 8px; display: flex; flex-direction: column; align-items: center; gap: 4px; font-size: 12px;
+  }
+  .bubble-body .card img { width: 96px; height: 96px; object-fit: contain; background: #fff; border-radius: 4px; }
+  .bubble-body .swatch {
+    width: 56px; height: 56px; border-radius: 8px; border: 2px solid var(--border);
+    background-size: cover; background-position: center;
+  }
+  .bubble-body .on { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+  .bubble-body .switch {
+    padding: 8px 16px; border-radius: 6px; border: 1px solid var(--border); background: rgba(255,255,255,0.08);
+  }
+  .bubble-body .switch.on { background: var(--sun); color: #2a1a00; border-color: var(--sun); box-shadow: none; }
+
+  @media (max-width: 600px) {
+    #panel { width: 160px; padding: 10px; }
+    #panel .help { display: none; }
+  }
+</style>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/",
+    "three-mesh-bvh": "https://cdn.jsdelivr.net/npm/three-mesh-bvh@0.7.8/build/index.module.js"
+  }
+}
+</script>
+</head>
+<body>
+<div id="loading">
+  <div id="loading-text">Chargement de la visite…</div>
+  <div class="track"><div class="bar" id="loading-bar"></div></div>
+</div>
+
+<div id="panel">
+  <h2>Vues</h2>
+  <div id="views"></div>
+  <button id="free">Exploration libre</button>
+  <button id="quality">Qualité : haute</button>
+  <div class="sun"><span id="hour-label">Heure   13h00</span>
+    <input type="range" id="hour" min="6" max="21" step="0.25" value="13"></div>
+  <div class="help">
+    Z Q S D ou flèches : se déplacer<br>
+    Glisser la souris : regarder<br>
+    Maj : aller plus vite<br>
+    H : masquer ce panneau
+  </div>
+</div>
+
+<div id="pad">
+  <span class="gap"></span><button data-move="forward">▲</button><span class="gap"></span>
+  <button data-move="left">◀</button><button data-move="back">▼</button><button data-move="right">▶</button>
+</div>
+
+<script type="module" src="visite.js"></script>
+</body>
+</html>

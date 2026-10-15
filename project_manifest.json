@@ -1,0 +1,1848 @@
+{
+  "project_metadata": {
+    "generator": "SketchUp UE5 Bridge v1.0",
+    "schema_version": "1.0",
+    "sketchup_version": "26.2.243",
+    "unit": "cm",
+    "up_axis": "Z",
+    "handedness": "left",
+    "source_title": "bureaux_export_unreal02",
+    "export_timestamp": 1791827263,
+    "export_date": "2026-10-12T19:47:43",
+    "counts": {
+      "entities_visited": 1523657,
+      "actors": 424,
+      "lights": 2,
+      "cameras": 4,
+      "variant_groups": 1,
+      "material_groups": 1
+    }
+  },
+  "settings": {
+    "camera_blend_seconds": 1.5,
+    "default_interaction_cm": 200.0,
+    "billboard_widgets": true,
+    "widget_vertical_offset_cm": 40.0
+  },
+  "geometry": {
+    "format": "datasmith",
+    "file": "bureaux_export_unreal02.udatasmith",
+    "path": "bureaux_export_unreal02.udatasmith",
+    "scale_to_cm": 1.0,
+    "axis_note": "Le manifeste est deja exprime en centimetres, repere Unreal."
+  },
+  "channels": [
+    {
+      "name": "Global",
+      "id": "Global",
+      "light_ids": [
+        "UE5_LightMarker_Spot"
+      ],
+      "default_on": true
+    },
+    {
+      "name": "Lampadaire_Orange",
+      "id": "Lampadaire_Orange",
+      "light_ids": [
+        "UE5_LightMarker_Point"
+      ],
+      "default_on": true
+    }
+  ],
+  "cameras": [
+    {
+      "name": "Scène 12",
+      "id": "Scene_12",
+      "order": 0,
+      "location": {
+        "x": 465.724,
+        "y": 118.585,
+        "z": 119.237
+      },
+      "rotation": {
+        "pitch": -9.02,
+        "yaw": 20.727,
+        "roll": 0.0
+      },
+      "target": {
+        "x": 2440.765,
+        "y": 865.948,
+        "z": -215.975
+      },
+      "projection": "perspective",
+      "fov": 58.545,
+      "fov_vertical": 35.0,
+      "aspect_ratio": 1.7778,
+      "ortho_height": 0.0,
+      "focal_distance": 2138.15,
+      "transition_seconds": 1.5
+    },
+    {
+      "name": "Scène 4",
+      "id": "Scene_4",
+      "order": 1,
+      "location": {
+        "x": 1332.557,
+        "y": 449.237,
+        "z": 155.84
+      },
+      "rotation": {
+        "pitch": -12.964,
+        "yaw": 178.53,
+        "roll": 0.0
+      },
+      "target": {
+        "x": -750.416,
+        "y": 502.698,
+        "z": -323.82
+      },
+      "projection": "perspective",
+      "fov": 58.545,
+      "fov_vertical": 35.0,
+      "aspect_ratio": 1.7778,
+      "ortho_height": 0.0,
+      "focal_distance": 2138.15,
+      "transition_seconds": 1.5
+    },
+    {
+      "name": "Scène 2",
+      "id": "Scene_2",
+      "order": 2,
+      "location": {
+        "x": 458.195,
+        "y": 188.136,
+        "z": 138.317
+      },
+      "rotation": {
+        "pitch": -10.356,
+        "yaw": 6.019,
+        "roll": 0.0
+      },
+      "target": {
+        "x": 2549.927,
+        "y": 408.678,
+        "z": -246.032
+      },
+      "projection": "perspective",
+      "fov": 58.545,
+      "fov_vertical": 35.0,
+      "aspect_ratio": 1.7778,
+      "ortho_height": 0.0,
+      "focal_distance": 2138.15,
+      "transition_seconds": 1.5
+    },
+    {
+      "name": "Scène 3",
+      "id": "Scene_3",
+      "order": 3,
+      "location": {
+        "x": 587.781,
+        "y": 518.788,
+        "z": 134.664
+      },
+      "rotation": {
+        "pitch": -8.042,
+        "yaw": -11.547,
+        "roll": 0.0
+      },
+      "target": {
+        "x": 2628.982,
+        "y": 101.771,
+        "z": -159.68
+      },
+      "projection": "perspective",
+      "fov": 58.545,
+      "fov_vertical": 35.0,
+      "aspect_ratio": 1.7778,
+      "ortho_height": 0.0,
+      "focal_distance": 2104.05,
+      "transition_seconds": 1.5
+    }
+  ],
+  "lights": [
+    {
+      "id": "UE5_LightMarker_Spot",
+      "name": "UE5_LightMarker_Spot",
+      "skp_pid": "13770433",
+      "light_type": "Spot",
+      "channel": "Global",
+      "parent_actor_id": "bouton",
+      "parent_match": {
+        "strategy": "name_then_world",
+        "actor_id": "bouton",
+        "skp_pid": "13770428",
+        "skp_guid": "3l6wbKyED0KhwO$7ZEoCmI",
+        "skp_path": "13770428",
+        "search_names": [
+          "bouton"
+        ],
+        "definition": "bouton",
+        "layer": "Layer0",
+        "world_location": {
+          "x": 648.031,
+          "y": 371.415,
+          "z": 92.516
+        }
+      },
+      "relative_transform": {
+        "location": {
+          "x": 209.71,
+          "y": -188.576,
+          "z": 152.723
+        },
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        }
+      },
+      "world_transform": {
+        "location": {
+          "x": 857.741,
+          "y": 182.839,
+          "z": 245.239
+        },
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        }
+      },
+      "intensity": 1500.0,
+      "intensity_units": "Lumens",
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "temperature": 3000,
+      "use_temperature": true,
+      "attenuation_radius": 800.0,
+      "cast_shadows": true,
+      "default_on": true,
+      "interaction_radius": 200.0,
+      "marker_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "uniform": true,
+        "average": 1.0
+      },
+      "inner_cone": 25.0,
+      "outer_cone": 40.0
+    },
+    {
+      "id": "UE5_LightMarker_Point",
+      "name": "UE5_LightMarker_Point",
+      "skp_pid": "13530933",
+      "light_type": "Point",
+      "channel": "Lampadaire_Orange",
+      "parent_actor_id": "Grouper_3",
+      "parent_match": {
+        "strategy": "name_then_world",
+        "actor_id": "Grouper_3",
+        "skp_pid": "13517150",
+        "skp_guid": "0a0LjbN3HFNPJs5wOvy6Lh",
+        "skp_path": "13517172.13517150",
+        "search_names": [
+          "Grouper#3",
+          "Grouper_3"
+        ],
+        "definition": "Grouper#3",
+        "layer": "Layer0",
+        "world_location": {
+          "x": 780.103,
+          "y": 335.627,
+          "z": 0.0
+        }
+      },
+      "relative_transform": {
+        "location": {
+          "x": 16.811,
+          "y": -18.976,
+          "z": 105.48
+        },
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        }
+      },
+      "world_transform": {
+        "location": {
+          "x": 796.914,
+          "y": 316.652,
+          "z": 105.48
+        },
+        "rotation": {
+          "pitch": -90.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        }
+      },
+      "intensity": 1200.0,
+      "intensity_units": "Lumens",
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "temperature": 2700,
+      "use_temperature": true,
+      "attenuation_radius": 500.0,
+      "cast_shadows": true,
+      "default_on": true,
+      "interaction_radius": 200.0,
+      "marker_scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "uniform": true,
+        "average": 1.0
+      }
+    }
+  ],
+  "variant_groups": [
+    {
+      "group_id": "GRP_test",
+      "group_name": "test",
+      "type": "mesh_swap",
+      "container_id": "Groupe",
+      "skp_pid": "13690404",
+      "skp_guid": "0w409_831CYwN12oUrUxBm",
+      "skp_path": "13690404",
+      "world_transform": {
+        "location": {
+          "x": 904.17,
+          "y": 121.091,
+          "z": 0.0
+        },
+        "rotation": {
+          "pitch": 0.0,
+          "yaw": 0.0,
+          "roll": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "interaction_radius": 250.0,
+      "product_sheet": {
+        "title": "Groupe",
+        "ref": "",
+        "brand": "",
+        "price": "",
+        "dimensions": "98 x 83 x 92 cm",
+        "description": "",
+        "url": ""
+      },
+      "variants": [
+        {
+          "variant_id": "fauteuil01",
+          "label": "fauteuil01",
+          "actor_id": "fauteuil01",
+          "skp_pid": "13546599",
+          "skp_guid": "02hul5kG90BAVpZ$WpoWJV",
+          "skp_path": "13690404.13546599",
+          "definition": "fauteuil01",
+          "is_default": true,
+          "thumbnail": "Thumbnails/T_GRP_test_fauteuil01.png",
+          "product_sheet": {
+            "title": "fauteuil01",
+            "ref": "",
+            "brand": "",
+            "price": "",
+            "dimensions": "76 x 73 x 83 cm",
+            "description": "",
+            "url": ""
+          }
+        },
+        {
+          "variant_id": "fauteuil",
+          "label": "fauteuil",
+          "actor_id": "fauteuil",
+          "skp_pid": "13690403",
+          "skp_guid": "1oqhtkdvX3yexMG_$xUjl7",
+          "skp_path": "13690404.13690403",
+          "definition": "fauteuil",
+          "is_default": false,
+          "thumbnail": "Thumbnails/T_GRP_test_fauteuil.png",
+          "product_sheet": {
+            "title": "fauteuil",
+            "ref": "",
+            "brand": "",
+            "price": "",
+            "dimensions": "98 x 83 x 92 cm",
+            "description": "",
+            "url": ""
+          }
+        }
+      ]
+    }
+  ],
+  "material_groups": [
+    {
+      "slot_id": "MAT_canape",
+      "slot_name": "canape",
+      "target_actor": "canape",
+      "target_kind": "component",
+      "skp_pid": "13693883",
+      "skp_guid": "1OX7x0fbP6JA9xPGas_ZNF",
+      "skp_path": "13693883",
+      "default_material": "MLF49_2a8c57",
+      "options": [
+        {
+          "name": "259078e79c1b45a0",
+          "id": "A_259078e79c1b45a0",
+          "hex": "#A79886",
+          "rgb": [
+            0.6549,
+            0.5961,
+            0.5255
+          ],
+          "opacity": 1.0,
+          "has_texture": true,
+          "texture": "nalia_02.jpg",
+          "width_cm": 2.54,
+          "height_cm": 2.54,
+          "texture_file": "Textures/A_259078e79c1b45a0.jpg"
+        },
+        {
+          "name": "geometry_mat0",
+          "id": "geometry_mat0",
+          "hex": "#A6A6A5",
+          "rgb": [
+            0.651,
+            0.651,
+            0.6471
+          ],
+          "opacity": 1.0,
+          "has_texture": true,
+          "texture": "3b75e67d.jpg",
+          "width_cm": 25.4,
+          "height_cm": 25.4,
+          "texture_file": "Textures/geometry_mat0.jpg"
+        },
+        {
+          "name": "jofabric5a186b52",
+          "id": "jofabric5a186b52",
+          "hex": "#607063",
+          "rgb": [
+            0.3765,
+            0.4392,
+            0.3882
+          ],
+          "opacity": 1.0,
+          "has_texture": true,
+          "texture": "jofabr24.jpg",
+          "width_cm": 2.54,
+          "height_cm": 2.54,
+          "texture_file": "Textures/jofabric5a186b52.jpg"
+        },
+        {
+          "name": "MLF49_2a8c57",
+          "id": "MLF49_2a8c57",
+          "hex": "#374961",
+          "rgb": [
+            0.2157,
+            0.2863,
+            0.3804
+          ],
+          "opacity": 1.0,
+          "has_texture": true,
+          "texture": "MLF49.jpg",
+          "width_cm": 500.0,
+          "height_cm": 500.0,
+          "texture_file": "Textures/MLF49_2a8c57.jpg"
+        }
+      ]
+    }
+  ],
+  "material_settings": [
+    {
+      "name": "0e0e3f37b6ac0109",
+      "rgb": [
+        0.7412,
+        0.6196,
+        0.4392
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/A_0e0e3f37b6ac0109.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "259078e79c1b45a0",
+      "rgb": [
+        0.6549,
+        0.5961,
+        0.5255
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/A_259078e79c1b45a0.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "606fe08b2122f5d8",
+      "rgb": [
+        0.8039,
+        0.6353,
+        0.4667
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/A_606fe08b2122f5d8.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "72afb193d182152d",
+      "rgb": [
+        0.8314,
+        0.6588,
+        0.4392
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/A_72afb193d182152d.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "7a7385467ad280bf",
+      "rgb": [
+        0.6392,
+        0.6157,
+        0.6118
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/A_7a7385467ad280bf.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "9e8dde694cde22a0",
+      "rgb": [
+        0.5294,
+        0.3412,
+        0.2275
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/A_9e8dde694cde22a0.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "COL10",
+      "rgb": [
+        0.1961,
+        0.1961,
+        0.1961
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "COL11",
+      "rgb": [
+        0.851,
+        0.851,
+        0.851
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 0.01,
+      "glass": "clear",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "COL12",
+      "rgb": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "COL132",
+      "rgb": [
+        0.349,
+        0.0941,
+        0.1255
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "COL135",
+      "rgb": [
+        0.5569,
+        0.2745,
+        0.2157
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "COL14",
+      "rgb": [
+        0.698,
+        0.698,
+        0.698
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "COL15",
+      "rgb": [
+        0.8667,
+        0.8784,
+        0.8863
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "COL55",
+      "rgb": [
+        0.8902,
+        0.8706,
+        0.8588
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "SKP_plana6dd7687",
+      "rgb": [
+        0.2078,
+        0.2588,
+        0.1176
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/SKP_plana6dd7687.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "acad155ad9c2",
+      "rgb": [
+        0.9608,
+        0.9686,
+        0.9725
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/acad155ad9c2.png",
+      "roughness": 0.38,
+      "metallic": 0.1,
+      "specular": 0.85,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "acad378f2091",
+      "rgb": [
+        0.7922,
+        0.7451,
+        0.6863
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/acad378f2091.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "acad4ca29ba2",
+      "rgb": [
+        0.8706,
+        0.8549,
+        0.8353
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/acad4ca29ba2.jpg",
+      "roughness": 0.16,
+      "metallic": 0.15,
+      "specular": 0.8,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "acad5e437987",
+      "rgb": [
+        0.4392,
+        0.4667,
+        0.4039
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/acad5e437987.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "acadaddc2df9",
+      "rgb": [
+        0.7882,
+        0.8,
+        0.8
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/acadaddc2df9.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jo10000eecfc945",
+      "rgb": [
+        0.8275,
+        0.8275,
+        0.8275
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jo10000eecfc945.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jo10001aaf71e2c",
+      "rgb": [
+        0.9804,
+        0.9804,
+        0.9725
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jo10001aaf71e2c.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jo1000216930b1d",
+      "rgb": [
+        0.149,
+        0.149,
+        0.149
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jo1000216930b1d.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jo10010649e4625",
+      "rgb": [
+        0.7412,
+        0.5843,
+        0.4588
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jo10010649e4625.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jo3260ed6aeb2",
+      "rgb": [
+        0.8392,
+        0.8235,
+        0.7765
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jo3260ed6aeb2.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jo3584280761",
+      "rgb": [
+        0.4863,
+        0.3412,
+        0.2314
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jo3584280761.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jo36875d7659",
+      "rgb": [
+        0.1765,
+        0.1647,
+        0.1451
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jo36875d7659.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric036353c5",
+      "rgb": [
+        0.5176,
+        0.4667,
+        0.3647
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric036353c5.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric058943b0",
+      "rgb": [
+        0.4118,
+        0.2627,
+        0.2196
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric058943b0.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric14706c9a",
+      "rgb": [
+        0.5569,
+        0.5294,
+        0.4902
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric14706c9a.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric19827676",
+      "rgb": [
+        0.2549,
+        0.2549,
+        0.2549
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric19827676.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric1ffc59d8",
+      "rgb": [
+        0.5529,
+        0.4784,
+        0.3882
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric1ffc59d8.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric21cd0658",
+      "rgb": [
+        0.0863,
+        0.0863,
+        0.0902
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric21cd0658.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric2e8c2358",
+      "rgb": [
+        0.9647,
+        0.5725,
+        0.4627
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric2e8c2358.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric2f81f4ad",
+      "rgb": [
+        0.7176,
+        0.6941,
+        0.5882
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric2f81f4ad.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric3979b73b",
+      "rgb": [
+        0.3608,
+        0.3294,
+        0.3294
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric3979b73b.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric457addd1",
+      "rgb": [
+        0.9333,
+        0.9373,
+        0.9098
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric457addd1.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric53ce61e5",
+      "rgb": [
+        0.3059,
+        0.2627,
+        0.2157
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric53ce61e5.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric5a186b52",
+      "rgb": [
+        0.3765,
+        0.4392,
+        0.3882
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric5a186b52.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric5b14bd31",
+      "rgb": [
+        0.7333,
+        0.6275,
+        0.1765
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric5b14bd31.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabric792ddaef",
+      "rgb": [
+        0.8471,
+        0.698,
+        0.5804
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabric792ddaef.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabricadad3bec",
+      "rgb": [
+        0.4941,
+        0.4,
+        0.3294
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabricadad3bec.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabricb498e60d",
+      "rgb": [
+        0.8863,
+        0.8471,
+        0.8078
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabricb498e60d.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabricc6ceb343",
+      "rgb": [
+        0.1608,
+        0.1843,
+        0.1765
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabricc6ceb343.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "jofabricdba72072",
+      "rgb": [
+        0.5686,
+        0.349,
+        0.1882
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/jofabricdba72072.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral2310250679f",
+      "rgb": [
+        0.7843,
+        0.7333,
+        0.5294
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/joral2310250679f.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral231315cee24",
+      "rgb": [
+        0.8,
+        0.4118,
+        0.3294
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/joral231315cee24.jpg",
+      "roughness": 0.4,
+      "metallic": 0.1,
+      "specular": 0.7,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral23383700b59",
+      "rgb": [
+        0.7647,
+        0.5216,
+        0.4314
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/joral23383700b59.jpg",
+      "roughness": 0.39,
+      "metallic": 0.1,
+      "specular": 0.65,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral238501a843e",
+      "rgb": [
+        0.5451,
+        0.2863,
+        0.1922
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/joral238501a843e.jpg",
+      "roughness": 0.39,
+      "metallic": 0.1,
+      "specular": 0.69,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral239063f66e5",
+      "rgb": [
+        0.1765,
+        0.2275,
+        0.2627
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral239272ee8c0",
+      "rgb": [
+        0.1922,
+        0.2392,
+        0.2314
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.32,
+      "metallic": 0.1,
+      "specular": 0.7,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral23939e577a0",
+      "rgb": [
+        0.7098,
+        0.5647,
+        0.2902
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral2395e0ecdf3",
+      "rgb": [
+        0.8824,
+        0.8588,
+        0.7725
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.36,
+      "metallic": 0.1,
+      "specular": 0.73,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral239643c3848",
+      "rgb": [
+        0.0549,
+        0.0549,
+        0.0627
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/joral239643c3848.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral239709f6b9d",
+      "rgb": [
+        0.6196,
+        0.3333,
+        0.1569
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.4,
+      "metallic": 0.1,
+      "specular": 0.65,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "joral239c926fed3",
+      "rgb": [
+        0.8,
+        0.4118,
+        0.3294
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "Glass_Basic_01",
+      "rgb": [
+        0.6314,
+        0.6784,
+        0.7294
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.0,
+      "metallic": 1.0,
+      "specular": 0.5,
+      "opacity": 0.01,
+      "glass": "clear",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "geometry_mat0",
+      "rgb": [
+        0.651,
+        0.651,
+        0.6471
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/geometry_mat0.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "geometry_mat1",
+      "rgb": [
+        0.149,
+        0.149,
+        0.149
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/geometry_mat1.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "geometry_mat2",
+      "rgb": [
+        0.1922,
+        0.1922,
+        0.1922
+      ],
+      "has_texture": false,
+      "texture_file": "",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "geometry_mat3",
+      "rgb": [
+        0.7137,
+        0.6745,
+        0.6431
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/geometry_mat3.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "geometry_mat8",
+      "rgb": [
+        0.149,
+        0.149,
+        0.149
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/geometry_mat8.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "geometry_mat10",
+      "rgb": [
+        0.8235,
+        0.7137,
+        0.5961
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/geometry_mat10.jpg",
+      "roughness": 0.26,
+      "metallic": 0.1,
+      "specular": 0.81,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "geometry_mat13",
+      "rgb": [
+        0.149,
+        0.149,
+        0.149
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/geometry_mat13.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "geometry_mat14",
+      "rgb": [
+        0.7137,
+        0.6745,
+        0.6431
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/geometry_mat14.jpg",
+      "roughness": 0.5,
+      "metallic": 0.1,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "",
+      "roughness_file": "",
+      "metallic_file": ""
+    },
+    {
+      "name": "Material_0",
+      "rgb": [
+        0.702,
+        0.6392,
+        0.5843
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/Material_0.jpg",
+      "roughness": 0.33,
+      "metallic": 1.0,
+      "specular": 0.66,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "Textures/Material_0_N.png",
+      "roughness_file": "Textures/Material_0_R.png",
+      "metallic_file": "Textures/Material_0_M.png"
+    },
+    {
+      "name": "Plywood_08_1K",
+      "rgb": [
+        0.7922,
+        0.651,
+        0.4431
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/Plywood_08_1K.png",
+      "roughness": 1.0,
+      "metallic": 0.0,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "Textures/Plywood_08_1K_N.png",
+      "roughness_file": "Textures/Plywood_08_1K_R.png",
+      "metallic_file": ""
+    },
+    {
+      "name": "bleu01",
+      "rgb": [
+        0.2353,
+        0.3137,
+        0.5059
+      ],
+      "has_texture": true,
+      "texture_file": "Textures/bleu01.png",
+      "roughness": 1.0,
+      "metallic": 0.0,
+      "specular": 0.5,
+      "opacity": 1.0,
+      "glass": "none",
+      "normal_strength": 1.0,
+      "normal_file": "Textures/bleu01_N.png",
+      "roughness_file": "Textures/bleu01_R.png",
+      "metallic_file": ""
+    }
+  ],
+  "doors": [
+    {
+      "id": "Door_porte01_13770434",
+      "name": "porte01",
+      "skp_pid": "13770434",
+      "skp_guid": "0eaSp0wnz898abfYH1Rq48",
+      "skp_path": "13770434",
+      "kind": "pivot",
+      "hinge": {
+        "x": 1414.68,
+        "y": 558.851,
+        "z": 0.0
+      },
+      "axis": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "center": {
+        "x": 1416.058,
+        "y": 525.245,
+        "z": 97.398
+      },
+      "front": {
+        "x": -0.99916,
+        "y": -0.04098,
+        "z": 0.0
+      },
+      "width_cm": 67.269,
+      "angle": 90.0,
+      "swing": "away",
+      "slide_dir": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "slide_distance": 48.676,
+      "radius": 200.0,
+      "duration": 1.2,
+      "group": ""
+    },
+    {
+      "id": "Door_porte02_13772463",
+      "name": "porte02",
+      "skp_pid": "13772463",
+      "skp_guid": "3dkcmQLkX9cR0Gi4mRvoGa",
+      "skp_path": "13772463",
+      "kind": "pivot",
+      "hinge": {
+        "x": 1414.68,
+        "y": 441.945,
+        "z": 0.0
+      },
+      "axis": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "center": {
+        "x": 1416.126,
+        "y": 464.01,
+        "z": 97.398
+      },
+      "front": {
+        "x": 0.99786,
+        "y": -0.06542,
+        "z": 0.0
+      },
+      "width_cm": 44.224,
+      "angle": 90.0,
+      "swing": "away",
+      "slide_dir": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "slide_distance": 37.114,
+      "radius": 200.0,
+      "duration": 1.2,
+      "group": ""
+    }
+  ],
+  "diagnostics": {
+    "warnings": [],
+    "log": {
+      "debug": 0,
+      "info": 7,
+      "warn": 0,
+      "error": 0
+    }
+  }
+}
